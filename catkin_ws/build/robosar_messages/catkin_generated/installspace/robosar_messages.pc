@@ -1,0 +1,8 @@
+prefix=/home/jaskaran/catkin_ws/install
+
+Name: robosar_messages
+Description: Description of robosar_messages
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobosar_messages
+Requires: roscpp rospy std_msgs nav_msgs message_runtime

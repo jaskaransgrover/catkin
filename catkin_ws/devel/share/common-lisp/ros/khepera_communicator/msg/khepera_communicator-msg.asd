@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "khepera_communicator-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "Acc" :depends-on ("_package_Acc"))
+    (:file "_package_Acc" :depends-on ("_package"))
+    (:file "Encoder_POS" :depends-on ("_package_Encoder_POS"))
+    (:file "_package_Encoder_POS" :depends-on ("_package"))
+    (:file "Encoder_SPD" :depends-on ("_package_Encoder_SPD"))
+    (:file "_package_Encoder_SPD" :depends-on ("_package"))
+    (:file "Gyro" :depends-on ("_package_Gyro"))
+    (:file "_package_Gyro" :depends-on ("_package"))
+    (:file "K4_controls" :depends-on ("_package_K4_controls"))
+    (:file "_package_K4_controls" :depends-on ("_package"))
+    (:file "SensorReadings" :depends-on ("_package_SensorReadings"))
+    (:file "_package_SensorReadings" :depends-on ("_package"))
+    (:file "Time" :depends-on ("_package_Time"))
+    (:file "_package_Time" :depends-on ("_package"))
+  ))

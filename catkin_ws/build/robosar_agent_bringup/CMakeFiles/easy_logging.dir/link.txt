@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libeasy_logging.so -o /home/jaskaran/catkin_ws/devel/lib/libeasy_logging.so CMakeFiles/easy_logging.dir/third_party/easyloggingpp/src/easylogging++.cc.o 

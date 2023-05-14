@@ -1,0 +1,8 @@
+prefix=/home/jaskaran/catkin_ws/devel
+
+Name: robosar_agent_bringup
+Description: Description of robosar_agent_bringup
+Version: 0.0.0
+Cflags: -I/home/jaskaran/catkin_ws/src/robosar_agent_bringup/include
+Libs: -L${prefix}/lib -lrobosar_agent_bringup
+Requires: roscpp rospy std_msgs roslib

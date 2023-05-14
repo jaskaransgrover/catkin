@@ -1,0 +1,8 @@
+prefix=/home/jaskaran/catkin_ws/devel
+
+Name: robosar_tf
+Description: Description of robosar_tf
+Version: 0.0.0
+Cflags: -I/home/jaskaran/catkin_ws/src/robosar_tf/include
+Libs: -L${prefix}/lib -lrobosar_tf
+Requires: roscpp rospy std_msgs roscpp rospy std_msgs tf

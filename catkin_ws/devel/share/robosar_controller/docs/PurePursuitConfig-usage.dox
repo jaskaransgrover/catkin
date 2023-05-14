@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="robosar_controller" pkg="robosar_controller" type="robosar_controller">
+  <param name="max_linear_velocity" type="double" value="0.1" />
+</node>
+\endverbatim
+

@@ -1,0 +1,2 @@
+set(robosar_controller_MESSAGE_FILES "msg/PurePursuitAction.msg;msg/PurePursuitActionGoal.msg;msg/PurePursuitActionResult.msg;msg/PurePursuitActionFeedback.msg;msg/PurePursuitGoal.msg;msg/PurePursuitResult.msg;msg/PurePursuitFeedback.msg;msg/RobosarControllerAction.msg;msg/RobosarControllerActionGoal.msg;msg/RobosarControllerActionResult.msg;msg/RobosarControllerActionFeedback.msg;msg/RobosarControllerGoal.msg;msg/RobosarControllerResult.msg;msg/RobosarControllerFeedback.msg")
+set(robosar_controller_SERVICE_FILES "")

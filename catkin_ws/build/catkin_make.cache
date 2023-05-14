@@ -1,0 +1,2 @@
+beginner_tutorials:khepera_communicator:robosar_agent_bringup:robosar_controller:robosar_messages:robosar_navigation:robosar_sim_bringup:robosar_stage_ros:robosar_task_allocator:robosar_task_generator:robosar_tf:ros_basics_tutorials:slam_toolbox/slam_toolbox:slam_toolbox/slam_toolbox_msgs:slam_toolbox/slam_toolbox_rviz:vicon_bridge
+-DCATKIN_DEVEL_PREFIX=/home/jaskaran/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jaskaran/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,7 @@
+set(robosar_task_allocator_SETUP_PY_SETUP_MODULE "setuptools")
+set(robosar_task_allocator_SETUP_PY_VERSION "0.0.0")
+set(robosar_task_allocator_SETUP_PY_SCRIPTS "")
+set(robosar_task_allocator_SETUP_PY_PACKAGES "robosar_task_allocator")
+set(robosar_task_allocator_SETUP_PY_PACKAGE_DIRS "src/robosar_task_allocator")
+set(robosar_task_allocator_SETUP_PY_MODULES "")
+set(robosar_task_allocator_SETUP_PY_MODULE_DIRS "")
